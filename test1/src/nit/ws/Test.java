@@ -33,7 +33,7 @@ public class Test {
 	//@Consumes(MediaType.type) MIME type will display the content / Consumes
 	
 	public String sayHtml(){
-		System.out.println("html... \n it's working...");
+		System.out.println("html... TEXT_HTML\n it's working...");
 		return "<body>hey i am working fine,you can proceed TEXT_HTML...</body>";
 	}
 	
