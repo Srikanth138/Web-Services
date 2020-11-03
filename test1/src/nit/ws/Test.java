@@ -10,7 +10,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-@Path("/test") //context path calling in web.xml url
+@Path("/test") //context path calling url
 public class Test {
 	
 	@GET
