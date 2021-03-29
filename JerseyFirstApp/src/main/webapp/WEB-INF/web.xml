@@ -1,0 +1,17 @@
+<web-app>
+<welcome-file-list>
+<welcome-file>input.html</welcome-file>
+</welcome-file-list>
+<servlet>
+  	<servlet-name>sample</servlet-name>
+  	<servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+  	<init-param>
+  		<param-name>jersey.config.server.provider.packages</param-name>
+  		<param-value>com.nt</param-value>
+  	</init-param>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>sample</servlet-name>
+	<url-pattern>/rest/*</url-pattern>  
+  </servlet-mapping>
+</web-app>
